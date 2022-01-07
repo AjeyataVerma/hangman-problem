@@ -6,10 +6,9 @@ def game():
     print("You have 5 lives to play the game")
 
     wrong_list=[]
-
-    # for i in range (len(display)):
-#   #replace each letter with a '_'
-#   display = display[0:i] + "_" + display[i+1:]
+    #=[]
+    # for i in range(len(word)):
+    #     n.append("_")
     random_word = word
     for i in range(len(random_word)):
         random_word = random_word[0:i] + "_" + random_word[i+1:]
@@ -29,11 +28,21 @@ def game():
             print('You have Already guessed this letter')
             lives +=1
         if n in word:
-            guessed = [i for i, w in enumerate(word) if w == n]
-            for i in guessed:
-                if random_word[i] == "_":
+            #guessed = [i for i, w in enumerate(word) if w == n]
+            for i in range(len(word)):
+                if word[i] == n:
                     random_word = random_word[:i] + n + random_word[i+1:]
-                    break
+                    #n[i]=word[i]
+                    # cap=word[i]
+                    # cap=cap.capitalize()
+                    # n[i]=cap
+                    #random_word = random_word[:i] + n + random_word[i+1:]
+                    #break
+
+                # if random_word[i] == "_":
+                #     random_word = random_word[:i] + n + random_word[i+1:]
+                #     break
+
         else:
             lives -= 1
             wrong_list.append(n)
