@@ -9,4 +9,5 @@ Following are the rules of the game:
   - Inputting same wrong character will tell the user that they already tried this and no life will be reduced
   - If the user guessed the correct word, they win the game.
 
+![ss](https://user-images.githubusercontent.com/69345559/148521964-f0704e32-0166-462d-9113-9f4102d8abb9.png)
 
