@@ -9,4 +9,4 @@ Following are the rules of the game:
   - Inputting same wrong character will tell the user that they already tried this and no life will be reduced
   - If the user guessed the correct word, they win the game.
 
-![screenshot] (/home/ajeyata/Pictures/ss.png?raw=true "screenshot")
+![screenshot] (ss.png)
